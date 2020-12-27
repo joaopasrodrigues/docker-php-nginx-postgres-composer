@@ -33,6 +33,17 @@ You will need:
 
 ## How to use it
 
+### Installing your project
+
+Copy your application/website files to ./html/public
+
+NOTE: Document root is set to ./html/public - parent directory left for you to host files you do not wish to make available to the web
+
+copy your sql init file to docker/conf/postgresql/initdb.d/
+
+
+
+
 ### Starting Docker Compose
 
 Checkout the repository or download the sources.
