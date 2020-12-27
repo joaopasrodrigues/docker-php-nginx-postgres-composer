@@ -1,5 +1,10 @@
 # docker-php-nginx-postgres-composer
-Docker Compose configuration to run PHP 7.1 with Nginx, PHP-FPM, PostgreSQL 10.1 and Composer.
+Docker Compose configuration to run PHP 7.4 with Nginx, PHP-FPM, PostgreSQL 10.6 and Composer.
+
+
+## Based from 
+https://github.com/ineat/docker-php-nginx-postgres-composer
+
 
 ## Overview
 
@@ -7,8 +12,8 @@ This Docker Compose configuration lets you run easily PHP 7.1 with Nginx, PHP-FP
 It exposes 4 services:
 
 * web (Nginx)
-* php (PHP 7.1 with PHP-FPM)
-* db (PostgreSQL 10.1)
+* php (PHP 7.4 with PHP-FPM)
+* db (PostgreSQL 10.6)
 * composer
 
 The PHP image comes with the most commonly used extensions and is configured with xdebug.
