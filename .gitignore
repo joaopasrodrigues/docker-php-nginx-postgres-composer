@@ -1,1 +1,4 @@
 postgresql-data
+*.id_rsa
+.env
+docker/conf/postgres/initdb.d/init.sql
